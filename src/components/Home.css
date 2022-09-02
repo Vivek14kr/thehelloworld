@@ -1,0 +1,36 @@
+.box {
+  margin: 5% 5% 5% 5%;
+  display: grid;
+  grid-template-columns: 33.33% 33.33% 33.33%;
+  grid-gap: 50px;
+  justify-content: center;
+  text-align: center;
+}
+
+.image {
+  height: 100%;
+  width: 100%;
+}
+
+@media (max-width: 900px) {
+  .box {
+    margin: 5% 5% 5% 5%;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-gap: 50px;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 901px) and (max-width: 1400px) {
+  .box {
+    margin: 5% 5% 5% 5%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 50px;
+    justify-content: center;
+    text-align: center;
+  }
+}
